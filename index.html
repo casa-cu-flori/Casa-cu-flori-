@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa cu flori</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#despre">Despre</a></li>
+            <li><a href="#servicii">Servicii</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#comenzi">Comenzi</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="acasa">
+        <img src="images/logo.jpeg" alt="Casa cu flori logo" class="logo">
+        <h1>Bine ai venit la Casa cu flori</h1>
+        <p>Locul unde florile spun povești</p>
+    </header>
+
+    <section class="about" id="despre">
+        <h2>Despre noi</h2>
+        <p>„Casa cu flori” s-a născut din pasiunea pentru frumos și dorința de a aduce zâmbete prin flori. Cu aranjamente elegante, personalizate și parfumate, transformăm momentele speciale în amintiri de neuitat.</p>
+    </section>
+
+    <section class="services" id="servicii">
+        <h2>Servicii</h2>
+        <ul>
+            <li>Buchete personalizate</li>
+            <li>Aranjamente pentru nunți și evenimente</li>
+            <li>Decor floral pentru locații</li>
+            <li>Livrare locală rapidă</li>
+        </ul>
+    </section>
+
+    <section class="gallery" id="galerie">
+        <h2>Galerie</h2>
+        <div class="gallery-grid">
+            <img src="images/flower1.jpg" alt="Buchet elegant">
+            <img src="images/flower2.jpg" alt="Aranjament floral">
+            <img src="images/flower3.jpg" alt="Decor eveniment">
+        </div>
+    </section>
+
+    <section class="orders" id="comenzi">
+        <h2>Plasează o comandă</h2>
+        <form>
+            <label for="nume">Nume complet:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="telefon">Telefon:</label>
+            <input type="tel" id="telefon" name="telefon" required>
+
+            <label for="tip_buchet">Tip buchet:</label>
+            <select id="tip_buchet" name="tip_buchet">
+                <option>Buchet clasic</option>
+                <option>Buchet de mireasă</option>
+                <option>Aranjament festiv</option>
+                <option>Cutie cu flori</option>
+            </select>
+
+            <label for="data">Data livrării / ridicării:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="observatii">Observații:</label>
+            <textarea id="observatii" name="observatii"></textarea>
+
+            <button type="submit">Trimite comanda</button>
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p><strong>Telefon:</strong> 0726 478 544</p>
+        <p><strong>Email:</strong> <a href="mailto:casacuori9@gmail.com">casacuori9@gmail.com</a></p>
+        <p><strong>Adresă:</strong> Bulevardul Laminorului nr. 23</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Casa cu flori. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
